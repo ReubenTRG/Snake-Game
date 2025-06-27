@@ -63,7 +63,7 @@ CurrentScreen = ['Home', 'Game', 'Achievement', 'Credit', 'Skins', 'Difficulty',
 # the first element in the list is the current Screen
 
 window = pygame.display.set_mode((DisplayWidth, DisplayHeight))
-pygame.display.set_caption('Sneke Game')
+pygame.display.set_caption('Snake Game')
 
 
 class Snake:
@@ -287,7 +287,7 @@ def HomeScreen():  # Displays home screen
     Change('Home')
     Restart()
     window.fill((255, 255, 255))
-    TextRECT('Sneke Game', (0, 128, 0), (), DisplayWidth // 2, DisplayHeight // 2 - 300, 100)
+    TextRECT('Snake Game', (0, 128, 0), (), DisplayWidth // 2, DisplayHeight // 2 - 300, 100)
 
     if TextRECT('Start', (0, 128, 32), (), DisplayWidth // 2, DisplayHeight // 2 - 150, 50, 150, True):
         Restart()
