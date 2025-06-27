@@ -1,7 +1,3 @@
-Here's a complete and professional `README.md` for your **Sneke Game** based on the code you provided:
-
----
-
 # 🐍 Snake Game
 
 **Snake Game** is a visually enhanced and feature-rich take on the classic Snake game made using **Python** and **Pygame**. Navigate your snake across a grid to eat apples, grow longer, unlock skins, and track your high scores — all while avoiding tail collisions and deadly walls!
